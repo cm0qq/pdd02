@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.p1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="p1" Height="450" Width="800">
+    <Grid Background="#FFDAEAFF">
+        <TextBlock HorizontalAlignment="Left" Margin="32,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="255" Width="731" FontSize="14"><Run Text="Правила поведения на тротуаре."/><LineBreak/><Run Text="   "/><Run Language="ru-ru" Text="1. "/><Run Text="Иди по тротуару, придерживаясь правой стороны."/><LineBreak/><Run Text="   "/><Run Language="ru-ru" Text="2. "/><Run Text="Передвигайся по тротуару спокойным шагом. Не беги и не создавай помех другим пешеходам."/><LineBreak/><Run Text="   "/><Run Language="ru-ru" Text="3. "/><Run Text="Обходи препятствие на тротуаре, не выходя на проезжую часть."/><LineBreak/><Run Text="   "/><Run Language="ru-ru" Text="4. "/><Run Text="Не играй и не балуйся на тротуаре."/><LineBreak/><Run/><LineBreak/><Run Text="При отсутствии тротуаров пешеходы должны двигаться по обочинам или краю проезжей части навстречу движению транспорта. В темное время суток рекомендуется иметь при себе предметы (одежду) со светоотражающими элементами."/><LineBreak/><Run/><LineBreak/><Run Text="Переходи проезжую часть только по пешеходным переходам (в том числе надземным и подземным)"/><Run Language="ru-ru" Text=". Подходя к переходу, нужно притормаживать и не бежать по ним. Автомобиль не сможет сразу затормозить, если увидит вас."/></TextBlock>
+        <Image Margin="644,303,2,2" Source="/free-sticker-transport-10540696.png">
+            <Image.OpacityMask>
+                <ImageBrush Stretch="Uniform" ImageSource="/free-sticker-transport-10540696.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Button Content="Пройти тест" HorizontalAlignment="Left" Margin="32,333,0,0" VerticalAlignment="Top" Height="57" Width="182" Background="#FFFFBBC8" BorderBrush="#FFFFBBC8" FontSize="15" Click="Button_Click_1"/>
+        <Button Content="Вернуться назад" HorizontalAlignment="Left" Margin="267,333,0,0" VerticalAlignment="Top" Height="57" Width="182" Background="#FFFFBBC8" BorderBrush="#FFFFBBC8" FontSize="15" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.obs"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="obs" Height="450" Width="800">
+    <Grid Background="#FFDAEAFF">
+        <Button Content="Перейти к обучению" HorizontalAlignment="Left" Margin="39,140,0,0" VerticalAlignment="Top" Height="57" Width="182" Background="#FFFFBBC8" BorderBrush="#FFFFBBC8" FontSize="15" Click="Button_Click_1"/>
+        <Button Content="Перейти к списку тестов" HorizontalAlignment="Left" Margin="39,242,0,0" VerticalAlignment="Top" Height="57" Width="182" Background="#FFFFBBC8" BorderBrush="#FFFFBBC8" FontSize="15" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="116,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="671" FontSize="20"><Run Text="В разделе"/><Run Text=" "/><Run Text="обучения есть список тем, которые"/><Run Text=" "/><Run Text="нужно "/><Run Text="изучить"/><Run Text=", а затем пройти тест. Тесты для прохождения доступны всегда"/><Run Language="ru-ru" Text="."/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="561,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20"><Run Text="Ваш"/><Run Language="ru-ru" Text=" прогресс"/></TextBlock>
+        <Image Margin="39,42,706,337" Source="/free-icon-traffic-signal-6488792.png" RenderTransformOrigin="-0.066,0.332" Stretch="UniformToFill" Width="55" Height="55">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/free-icon-traffic-signal-6488792.png" Stretch="Uniform"/>
+            </Image.OpacityMask>
+        </Image>
+    </Grid>
+</Window>
